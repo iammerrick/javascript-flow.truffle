@@ -1,0 +1,10 @@
+(name [AMD Define])
+
+(trigger
+    (tab def))
+
+(only-in source.js)
+
+(snippet [define(function(require) {
+  %{0}
+});])

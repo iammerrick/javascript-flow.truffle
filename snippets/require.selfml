@@ -1,0 +1,8 @@
+(name [Require])
+
+(trigger
+    (tab req))
+
+(only-in source.js)
+
+(snippet [require('%{0}');])
